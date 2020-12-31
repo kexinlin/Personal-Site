@@ -130,3 +130,8 @@ hr {
 .copyright {
   font-size: 0.85rem;
 }
+
+.quote > p {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 1.7rem;
+}
