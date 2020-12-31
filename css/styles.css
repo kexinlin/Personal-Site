@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #fff2ee;
+  color: #40514e;
+  line-height: 2;
+}
+
+.top-container {
+  position: relative;
+  background-color: #fff2ee;
+  padding: 1%;
+  margin-bottom: 2%;
+  line-height: 1;
+}
+
+.top-container > p {
+  font-size: 1.2rem;
+  margin: 2%;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 500%;
+  color: #556052;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #556052;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #556052;
+}
+
+.cat {
+  width: 8%;
+}
+
+.working {
+  width: 50%;
+}
+
+.leaf {
+  position: absolute;
+  width: 7%;
+  top: 40%;
+  left: 20%;
+}
+
+.bird {
+  position: absolute;
+  width: 7%;
+  top: 80%;
+  right: 10%;
+}
+
+.profile-photo {
+  margin: 2% 2% 0 2%;
+  width: 15%;
+}
+
+.profile > h2 {
+  margin-top: 0;
+}
+
+.bottom-container {
+  background-color: #d8ac9c;
+  padding: 2%;
+  line-height: 3;
+}
+
+.contact > a {
+  margin: 1%;
+  color: #556052;
+  text-decoration: none;
+}
+
+.contact > a:hover {
+  color: #f4eeed;
+  text-decoration: none;
+}
+
+.contact-btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #f4eeed;
+  font-size: 20px;
+  background: #d8ac9c;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background: #efd9d1;
+  text-decoration: none;
+}
+
+.bottom-container > p {
+  color: #f4eeed;
+}
+
+.contact-btn-div {
+  margin: 50px;
+}
+
+.section {
+  margin: 2% auto;
+  width: 40%;
+}
+
+hr {
+  border: dotted #999b84 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: auto;
+}
+
+.copyright {
+  font-size: 0.85rem;
+}
