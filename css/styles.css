@@ -12,18 +12,7 @@ body {
   line-height: 2;
 }
 
-.top-container {
-  position: relative;
-  background-color: #fff2ee;
-  padding: 1%;
-  margin-bottom: 2%;
-  line-height: 1;
-}
-
-.top-container > p {
-  font-size: 1.2rem;
-  margin: 2%;
-}
+/* Headings and Paragraphs */
 
 h1 {
   font-family: "Dancing Script", cursive;
@@ -34,13 +23,56 @@ h1 {
 h2 {
   font-family: "Montserrat", sans-serif;
   color: #556052;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  padding: 0.2rem;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
   color: #556052;
+  font-size: 1.6rem;
+  padding: 0.2rem;
 }
+
+p {
+  margin: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Section */
+.section .inner-container {
+  margin: 2% auto;
+  width: 55%;
+}
+
+.section {
+  padding: 1.5rem 0rem;
+}
+
+.light-sec {
+  background-color: #efd9d1;
+}
+
+.dark-sec {
+  background-color: #d8ac9c;
+}
+
+/* Top Container */
+
+.top-container {
+  position: relative;
+  background-color: #fff2ee;
+  padding: 1%;
+  margin-bottom: 2%;
+  line-height: 1;
+}
+
+.top-container p {
+  font-size: 1.2rem;
+  margin: 2%;
+}
+
+/* Icon Elements */
 
 .cat {
   width: 8%;
@@ -64,29 +96,57 @@ h3 {
   right: 10%;
 }
 
+/* Profile */
+
 .profile-photo {
-  margin: 2% 2% 0 2%;
+  margin: 2%;
   width: 15%;
 }
 
-.profile > h2 {
+.profile h2 {
   margin-top: 0;
 }
 
+/* Education */
+.education p {
+  margin-left: 0;
+}
+
+.edu-row {
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.edu-row img {
+  border-radius: 50%;
+  width: 25%;
+}
+
+.uoft-icon {
+  float: left;
+  margin-right: 1.8rem;
+}
+
+.hgs-icon {
+  float: right;
+  margin-left: 1.8rem;
+}
+
 .bottom-container {
-  background-color: #d8ac9c;
   padding: 2%;
   line-height: 3;
 }
 
-.contact > a {
+/* Contact me */
+
+.contact-me a {
   margin: 1%;
   color: #556052;
   text-decoration: none;
 }
 
-.contact > a:hover {
-  color: #f4eeed;
+.contact-me a:hover {
+  color: #556052;
   text-decoration: none;
 }
 
@@ -95,9 +155,9 @@ h3 {
   -moz-border-radius: 10;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
-  color: #f4eeed;
+  color: #556052;
   font-size: 20px;
-  background: #d8ac9c;
+  background: #f4eeed;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -107,28 +167,18 @@ h3 {
   text-decoration: none;
 }
 
-.bottom-container > p {
-  color: #f4eeed;
-}
-
 .contact-btn-div {
   margin: 50px;
 }
 
-.section {
-  margin: 2% auto;
-  width: 40%;
-}
-
-hr {
-  border: dotted #999b84 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: auto;
-}
-
 .copyright {
   font-size: 0.85rem;
+}
+
+/* quotations */
+
+.quote {
+  padding: 8rem;
 }
 
 .quote > p {
