@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 body {
@@ -50,6 +51,12 @@ a {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   font-weight: 300;
+}
+
+@media (max-width: 400px) {
+  .navbar-toggler.collapsed {
+    margin-right: 1rem;
+  }
 }
 
 /* Anchors */
@@ -115,6 +122,12 @@ p {
 
 .dark-sec {
   background-color: #d8ac9c;
+}
+
+@media (max-width: 400px) {
+  .section .inner-container {
+    width: 85%;
+  }
 }
 
 /* Division Container */
@@ -205,6 +218,12 @@ h3 {
   right: 10%;
 }
 
+@media (max-width: 400px) {
+  .top-container {
+    display: none;
+  }
+}
+
 /* Profile */
 
 .profile-photo {
@@ -214,6 +233,12 @@ h3 {
 
 .profile h2 {
   margin-top: 0;
+}
+
+@media (max-width: 400px) {
+  .profile-photo {
+    width: 50%;
+  }
 }
 
 /* Skills */
@@ -328,9 +353,18 @@ h3 {
   padding: 8rem;
 }
 
-.quote > p {
+.quote p {
   font-family: "Nothing You Could Do", cursive;
   font-size: 1.7rem;
+}
+
+@media (max-width: 400px) {
+  .quote {
+    padding: 2rem;
+  }
+  .quote p {
+    margin: 0;
+  }
 }
 
 /* Bottom */
@@ -340,9 +374,13 @@ h3 {
   line-height: 3;
 }
 
+.bottom-container .row {
+  width: 50%;
+  margin: auto;
+}
+
 .bottom-container a {
   color: #556052;
-  margin: 0 5rem;
 }
 
 .bottom-container a:hover {
