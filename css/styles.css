@@ -12,6 +12,18 @@ body {
   line-height: 2;
 }
 
+hr {
+  border: dotted #999b84 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 1rem auto;
+  background-color: #fff2ee;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Headings and Paragraphs */
 
 h1 {
@@ -31,7 +43,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: #556052;
   font-size: 1.6rem;
-  padding: 0.2rem;
+  margin: 0.5rem 0 0.2rem 0;
 }
 
 p {
@@ -53,8 +65,67 @@ p {
   background-color: #efd9d1;
 }
 
+.light-sec hr {
+  background-color: #fff2ee;
+}
+
+.dark-sec hr {
+  background-color: #d8ac9c;
+  border: dotted #41514e 6px;
+  border-bottom: none;
+}
+
 .dark-sec {
   background-color: #d8ac9c;
+}
+
+/* Division Container */
+.right-container-3 {
+  text-align: left;
+}
+
+.left-container-3 {
+  text-align: left;
+}
+
+.right-container-3 h3 {
+  margin-top: 1.5rem;
+}
+
+.left-container-3 h3 {
+  margin-top: 1.5rem;
+}
+
+.right-container-3 p,
+h3 {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.left-container-3 p,
+h3 {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.left-container-1 {
+  padding: 0 0.5rem 0 0;
+}
+
+.right-container-1 {
+  padding: 0 0 0 0.5rem;
+}
+
+.left-container-1 img {
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+}
+
+.right-container-1 img {
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 1.5rem;
 }
 
 /* Top Container */
@@ -107,34 +178,67 @@ p {
   margin-top: 0;
 }
 
-/* Education */
-.education p {
-  margin-left: 0;
+/* Skills */
+.skills i:hover {
+  color: #efd9d1;
 }
 
-.edu-row {
-  margin: 2rem auto;
-  text-align: left;
+.skills h3 {
+  margin: 2rem;
 }
 
-.edu-row img {
-  border-radius: 50%;
-  width: 25%;
+/* Certificates */
+
+.certificate .nav {
+  justify-content: center;
+  margin: 2rem;
 }
 
-.uoft-icon {
-  float: left;
-  margin-right: 1.8rem;
+.certificate .nav-link {
+  color: #556052;
 }
 
-.hgs-icon {
-  float: right;
-  margin-left: 1.8rem;
+.certificate .nav-link:hover {
+  color: #f4eeed;
 }
 
-.bottom-container {
-  padding: 2%;
-  line-height: 3;
+.certificate .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #efd9d1;
+  color: #556052;
+}
+
+.certificate .tab-content {
+  display: flex;
+  justify-content: center;
+}
+
+.certificate .card {
+  background-color: #f4eeed;
+}
+
+.certificate .card-header {
+  background-color: #f4eeed;
+}
+
+.certificate .list-group > li {
+  background-color: #f4eeed;
+}
+
+.certificate .card a {
+  color: #d8ac9c;
+  text-decoration: underline;
+}
+
+.certificate .card-title {
+  margin: 1rem;
+}
+
+/* My Resume */
+
+.resume .contact-btn:hover {
+  background: #d8ac9c;
+  text-decoration: none;
 }
 
 /* Contact me */
@@ -175,7 +279,7 @@ p {
   font-size: 0.85rem;
 }
 
-/* quotations */
+/* Quotations */
 
 .quote {
   padding: 8rem;
@@ -184,4 +288,24 @@ p {
 .quote > p {
   font-family: "Nothing You Could Do", cursive;
   font-size: 1.7rem;
+}
+
+/* Bottom */
+
+.bottom-container {
+  padding: 3%;
+  line-height: 3;
+}
+
+.bottom-container a {
+  color: #556052;
+  margin: 0 5rem;
+}
+
+.bottom-container a:hover {
+  color: #f4eeed;
+}
+
+.copyright {
+  margin: 2rem 0 0 0;
 }
