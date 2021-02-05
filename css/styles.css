@@ -53,7 +53,7 @@ a {
   font-weight: 300;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .navbar-toggler.collapsed {
     margin-right: 1rem;
   }
@@ -124,7 +124,7 @@ p {
   background-color: #d8ac9c;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .section .inner-container {
     width: 85%;
   }
@@ -218,7 +218,7 @@ h3 {
   right: 10%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .top-container {
     display: none;
   }
@@ -235,7 +235,7 @@ h3 {
   margin-top: 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .profile-photo {
     width: 50%;
   }
@@ -358,7 +358,7 @@ h3 {
   font-size: 1.7rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .quote {
     padding: 2rem;
   }
