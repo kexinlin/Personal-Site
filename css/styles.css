@@ -24,6 +24,44 @@ a {
   text-decoration: none;
 }
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Navigation Bar */
+
+#title .navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-left: 2rem;
+}
+
+#title .navbar {
+  background-color: rgb(255, 242, 238, 0.8);
+}
+
+#title .nav-item {
+  margin: 0px 18px;
+}
+
+#title .nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Anchors */
+
+#experience,
+#education,
+#skills,
+#project,
+#contact {
+  scroll-margin-top: 73px;
+}
+
 /* Headings and Paragraphs */
 
 h1 {
@@ -232,6 +270,11 @@ h3 {
 
 .certificate .card-title {
   margin: 1rem;
+}
+
+.certificate .nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 /* My Resume */

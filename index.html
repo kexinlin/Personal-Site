@@ -26,6 +26,36 @@
 </head>
 
 <body>
+  <!-- Nav Bar -->
+  <section id="title" class="colored-section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#">Kexin's Website</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+      </nav>
+  </section>
+
   <div class="top-container">
     <img class="cat" src="images/cat.svg" alt="cat-image" />
     <h1>I'm Kexin.</h1>
@@ -50,7 +80,7 @@
     </div>
 
     <!-- Education -->
-    <div class="education section dark-sec">
+    <div id="education" class="education section dark-sec">
       <div class="inner-container container-fluid">
         <h2>My Education</h2>
         <div class="row">
@@ -88,7 +118,7 @@
     </div>
 
     <!-- Experience -->
-    <div class="experience section light-sec">
+    <div id="experience" class="experience section light-sec">
       <div class="inner-container container-fluid">
         <h2>My Experience</h2>
         <div class="row">
@@ -139,7 +169,7 @@
     </div>
 
     <!-- Skills -->
-    <div class="skills section dark-sec">
+    <div id="skills" class="skills section dark-sec">
       <div class="inner-container">
         <h2>My Skills</h2>
         <div class="container-fluid">
@@ -255,7 +285,7 @@
     </div>
 
     <!-- Projects -->
-    <div class="project section light-sec">
+    <div id="project" class="project section light-sec">
       <div class="inner-container container-fluid">
         <h2>My Projects</h2>
         <div class="row">
@@ -334,7 +364,8 @@
           </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active col-9" id="pills-basic" role="tabpanel" aria-labelledby="pills-basic-tab">
+          <div class="tab-pane fade show active" id="pills-basic" role="tabpanel"
+            aria-labelledby="pills-basic-tab">
             <div class="card container-fluid" style="width: 50rem;">
               <div class="card-header">
                 <h5 class="card-title">Udacity Data Analyst Nanodegree (Basic)</h5>
@@ -345,9 +376,11 @@
                 <li class="list-group-item">Introduction to Data Analysis</li>
                 <li class="list-group-item">Practical Statistics</li>
                 <li class="list-group-item">Anaconda and Jupyter notebook</li>
-                <li class="list-group-item"><a href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/syllabus/syllabus-nd002-cn-basic-3.0.0-en-us.pdf"
-                  class="card-link" target="_blank">Full Syllabus</a>
-                <a href="https://confirm.udacity.com/FGDNYUYG" class="card-link" target="_blank">Certificate</a></li>
+                <li class="list-group-item"><a
+                    href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/syllabus/syllabus-nd002-cn-basic-3.0.0-en-us.pdf"
+                    class="card-link" target="_blank">Full Syllabus</a>
+                  <a href="https://confirm.udacity.com/FGDNYUYG" class="card-link" target="_blank">Certificate</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -365,9 +398,11 @@
                   <li class="list-group-item">Data Story Telling</li>
                   <li class="list-group-item">Introduction to Machine Learning</li>
                   <li class="list-group-item">Data Visualization</li>
-                  <li class="list-group-item"><a href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/syllabus/syllabus-nd002-cn-advanced-3.0.0-en-us.pdf"
-                    class="card-link" target="_blank">Full Syllabus</a>
-                  <a href="https://confirm.udacity.com/FRNTDD9K" class="card-link" target="_blank">Certificate</a></li>
+                  <li class="list-group-item"><a
+                      href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/syllabus/syllabus-nd002-cn-advanced-3.0.0-en-us.pdf"
+                      class="card-link" target="_blank">Full Syllabus</a>
+                    <a href="https://confirm.udacity.com/FRNTDD9K" class="card-link" target="_blank">Certificate</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -383,14 +418,15 @@
         <h2>My Resume</h2>
         <p>If you are interested in my recent resume, it's right down below! </p>
         <div class="contact-btn-div">
-          <a class="contact-btn btn" href="files/Kexin_Lin_Resume.pdf" target="_blank"><i class="fas fa-address-card"></i>
+          <a class="contact-btn btn" href="files/Kexin_Lin_Resume.pdf" target="_blank"><i
+              class="fas fa-address-card"></i>
             MY RESUME</a>
         </div>
       </div>
     </div>
 
     <!-- Contact Me -->
-    <div class="contact-me section dark-sec">
+    <div id="contact" class="contact-me section dark-sec">
       <div class="inner-container">
         <h2>Get In Touch</h2>
         <p>Click the button below to shoot me an email :)</p>
@@ -414,8 +450,10 @@
     <!-- Footer -->
     <div class="bottom-container dark-sec">
       <div class="contact">
-        <a class="footer-link" href="https://github.com/kexinlin" target="_blank"><i class="fab fa-github"></i> Github</a>
-        <a class="footer-link" href="https://www.linkedin.com/in/linkexin" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a class="footer-link" href="https://github.com/kexinlin" target="_blank"><i class="fab fa-github"></i>
+          Github</a>
+        <a class="footer-link" href="https://www.linkedin.com/in/linkexin" target="_blank"><i
+            class="fab fa-linkedin"></i> LinkedIn</a>
         <a class="footer-link" href="https://"><i class="fas fa-file-code"></i> Website</a>
       </div>
       <p class="copyright">© 2021 Kexin Lin.</p>
